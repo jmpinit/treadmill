@@ -1,0 +1,16 @@
+<h1>Dirty Bookmarks<h1>
+
+<ul>
+  {{#dirty}}
+  <li><a href="{{href}}">{{description}}</a></li>
+  {{/dirty}}
+</ul>
+
+{{#toread}}
+<h1>Your reading for {{date}}</h1>
+<h2><a href="{{href}}">{{description}}</a></h2>
+{{/toread}}
+{{^toread}}
+<h1>No reading today!</h1>
+{{/toread}}
+

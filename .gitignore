@@ -1,0 +1,9 @@
+# Python outputs
+*.pyc
+
+# Mailgun config
+config.json
+
+# Contains your Pinboard API token (from https://pinboard.in/settings/password)
+token
+
